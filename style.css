@@ -1,0 +1,141 @@
+body{
+    margin:5px;
+    margin-bottom: 0;
+    padding:0;
+    overflow-x: hidden;
+
+}
+
+
+.nav-bar{
+    position:sticky;
+    top:0;
+    display:block;
+    align-items: center;
+    margin:0;
+    padding: 10px 0px;
+    background-color: white;
+    width:100%;
+
+}
+.nav-bar nav{
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+
+    
+}
+
+.small-logo{
+    display: flex;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 40px;
+
+}
+
+.nav-bar a {
+    color: crimson;
+    text-decoration: none; 
+    font-weight: bold;
+    padding: 8px 12px;
+    font-size: 20px;
+    font-family: helvetica;
+}
+
+.hero-section_logo{
+    display:block;
+    margin: 0 auto;
+    padding: 50px 30px;
+    max-width: 80%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    opacity: 60%;
+
+}
+
+
+.hero-section_purpose h1 { 
+    font-family: helvetica;
+    font-size:50px;
+    color:rgb(245, 55, 55);
+    text-align: center;
+    margin-top:1cm;
+
+}
+.hero-section_purpose p{
+     font-family: helvetica;
+     font-size:15pt;
+     line-height: 30pt;
+     text-align: left;
+     margin: 0px 300px;
+}
+
+.hero-section_value h1 { 
+    font-family: helvetica;
+    font-size:50px;
+    color:rgb(245, 55, 55);
+    text-align: center;
+    margin-top:3cm;
+
+}
+.hero-section_value p{
+     font-family: helvetica;
+     font-size:15pt;
+     line-height: 30pt;
+     text-align: left;
+     margin: 0px 300px;
+}
+
+a:hover{
+    color:rgb(235, 171, 33);
+
+}
+
+
+.footer {
+    display: inline-block;
+    margin: 5cm 5cm 0;
+    opacity: 50%;
+    vertical-align: bottom;
+}
+
+.footer img {
+    display: block;
+    margin-left: -3cm;
+}
+
+
+.footer-text {
+    display: inline-block;
+    position: relative;
+    color: gray;
+    opacity: 50%;
+    font-family: Helvetica;
+    font-size: 15pt;
+    bottom: 80px;
+    width: 40%;
+}
+
+
+.footer-text h3 {
+    color: crimson;
+    font-size: 20pt;
+    padding-left: 3.5cm;
+    padding-bottom: 1cm;
+
+    
+}
+
+.hours-row {
+    margin-bottom: 30px;
+}
+
+.hours-row h4 {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    margin: 0;
+}
+
